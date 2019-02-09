@@ -51,6 +51,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 800px;
+  padding: 0 1.5rem;
 }
 .logo {
   display: block;

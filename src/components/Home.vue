@@ -94,34 +94,29 @@ export default {
   border: none;
   font-size: 1rem;
   transition: all 0.2s ease;
-  margin-top: 1rem;
+  margin: 1rem 0 3rem 0;
   cursor: pointer;
 }
-
 .button:hover{
   transform: scale(1.1);
 }
-
 .wave {
   margin-top: 10vw;
   margin-bottom: -1rem;
   width: 100%;
 }
-
 .answer {
   text-align: center;
   background: #ffffff;
   color: #5865FF;
 }
-
 .answer img {
-  height: 300px;
+  max-height: 300px;
+  max-width: 100%;
   margin: 1rem auto;
   border-radius: .5rem;
 }
-
 .answer h2 {
   font-size: 2.5rem;
 }
-
 </style>
